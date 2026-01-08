@@ -7,15 +7,15 @@ The app replicates the core user experience of WhatsApp, including chats, status
 
 ## 📖 Project Overview
 
-This project is designed to simulate a real-world messaging application similar to WhatsApp while following **modern Android development practices**.
+This project simulates a real-world messaging application similar to WhatsApp while following **modern Android development best practices**.
 
-The main focus of this project is:
-- Declarative UI using **Jetpack Compose**
-- Real-time chat functionality using **Firebase**
-- Clean architecture and scalable codebase
+The primary goals of this project are:
+- Declarative UI development using **Jetpack Compose**
+- Real-time messaging using **Firebase**
+- Clean, maintainable, and scalable architecture
 - Smooth and responsive user experience
 
-The project demonstrates how modern Android apps are built using **Compose + Firebase** instead of traditional XML-based layouts.
+This application demonstrates how modern Android apps are built using **Compose + Firebase**, replacing traditional XML-based UI development.
 
 ---
 
@@ -23,46 +23,46 @@ The project demonstrates how modern Android apps are built using **Compose + Fir
 
 ### 🔹 Chats
 - One-to-one real-time messaging
-- WhatsApp-style chat bubbles (sender & receiver)
+- WhatsApp-style sender & receiver chat bubbles
 - Message timestamps
-- Last seen / online status (UI level)
-- Floating action button to start a new chat
+- Online / last seen status (UI level)
+- Floating action button to start new chats
 
 ### 🔹 Updates (Status)
 - View status updates from contacts
 - Time-based status display
-- Channel section similar to WhatsApp
-- Floating action button for adding status
+- Channels section similar to WhatsApp
+- Floating action button to add a new status
 
 ### 🔹 Communities
 - View joined communities
 - Create new communities
-- Community list with member count
+- Community listing with member count
 - Clean and organized UI
 
 ### 🔹 UI & Navigation
 - Bottom navigation bar (Chats, Updates, Communities, Calls)
 - Material 3 design principles
-- Responsive layouts for different screen sizes
+- Responsive layouts for multiple screen sizes
 - Smooth animations and transitions
 
 ---
 
 ## 📱 App Screenshots
 
-> Screenshots are stored inside the `screenshots/` folder.
+<p align="center">
+  <img src="screenshots/chat.png" width="22%" />
+  <img src="screenshots/home.png" width="22%" />
+  <img src="screenshots/updates.png" width="22%" />
+  <img src="screenshots/communities.png" width="22%" />
+</p>
 
-### Chats Screen
-![Chats](screenshots/chats.png)
-
-### Chat Screen
-![Chat Screen](screenshots/chat_screen.png)
-
-### Updates Screen
-![Updates](screenshots/updates.png)
-
-### Communities Screen
-![Communities](screenshots/communities.png)
+<p align="center">
+  <b>Chats</b> &nbsp;&nbsp;&nbsp; 
+  <b>Chat Screen</b> &nbsp;&nbsp;&nbsp; 
+  <b>Updates</b> &nbsp;&nbsp;&nbsp; 
+  <b>Communities</b>
+</p>
 
 ---
 
@@ -71,7 +71,7 @@ The project demonstrates how modern Android apps are built using **Compose + Fir
 ### 🔹 Frontend
 - **Language:** Kotlin
 - **UI Framework:** Jetpack Compose
-- **Design:** Material 3
+- **Design System:** Material 3
 - **State Management:** State, MutableState, ViewModel
 
 ### 🔹 Architecture
@@ -90,4 +90,3 @@ The project demonstrates how modern Android apps are built using **Compose + Fir
 - Kotlin DSL (`.kts`)
 
 ---
-
